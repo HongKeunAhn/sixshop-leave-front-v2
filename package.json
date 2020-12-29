@@ -1,0 +1,39 @@
+{
+  "name": "sixshop-leave-front-v2",
+  "version": "1.0.0",
+  "description": "sixshop-leave-front",
+  "main": "index.html",
+  "scripts": {
+    "build": "webpack -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HongKeuni/sixshop-leave-front-v2.git"
+  },
+  "author": "Keuni",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HongKeuni/sixshop-leave-front-v2/issues"
+  },
+  "homepage": "https://github.com/HongKeuni/sixshop-leave-front-v2#readme",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.1",
+    "@fullcalendar/bootstrap": "^5.4.0",
+    "@fullcalendar/core": "^5.4.0",
+    "@fullcalendar/daygrid": "^5.4.0",
+    "@fullcalendar/interaction": "^5.4.0",
+    "bootstrap": "^4.5.3",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/plugin-proposal-class-properties": "^7.12.1",
+    "@babel/preset-env": "^7.12.10",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.0.1",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.10.1",
+    "webpack-cli": "^4.2.0"
+  }
+}
