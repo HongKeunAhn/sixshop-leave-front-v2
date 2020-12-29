@@ -1,9 +1,8 @@
 const path = require('path');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
-  // enntry file
-  entry: './src/js/main.js',
-  // 컴파일 + 번들링된 js 파일이 저장될 경로와 이름 지정
+  entry: ['./src/js/main.js'],
   output: {
     path: path.resolve(__dirname, 'dist/js'),
     filename: 'bundle.js'
@@ -27,12 +26,15 @@ module.exports = {
       {
         test: /\.css$/,
         use: [
-            {loader: "style-loader"},
-            {loader: "css-loader"}
-        ]
-    }
+          'style-loader',
+          'css-loader'
+        ],
+      }
     ]
   },
+  plugins: [new HtmlWebpackPlugin({
+    favicon: './image/favicon.ico'
+  })],
   devtool: 'source-map',
   // https://webpack.js.org/concepts/mode/#mode-development
   mode: 'development'
