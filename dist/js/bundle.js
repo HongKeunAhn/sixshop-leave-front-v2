@@ -12921,134 +12921,6 @@ var main = (0,_fullcalendar_common__WEBPACK_IMPORTED_MODULE_0__.createPlugin)({
 
 /***/ }),
 
-/***/ "./src/js/main.js":
-/*!************************!*\
-  !*** ./src/js/main.js ***!
-  \************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _fullcalendar_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @fullcalendar/core */ "./node_modules/@fullcalendar/core/main.js");
-/* harmony import */ var _fullcalendar_interaction__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @fullcalendar/interaction */ "./node_modules/@fullcalendar/interaction/main.js");
-/* harmony import */ var _fullcalendar_daygrid__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @fullcalendar/daygrid */ "./node_modules/@fullcalendar/daygrid/main.js");
-
-
-
-document.addEventListener('DOMContentLoaded', function () {
-  var calendarEl = document.getElementById('calendar');
-  var calendar = new _fullcalendar_core__WEBPACK_IMPORTED_MODULE_0__.Calendar(calendarEl, {
-    plugins: [_fullcalendar_interaction__WEBPACK_IMPORTED_MODULE_1__.default, _fullcalendar_daygrid__WEBPACK_IMPORTED_MODULE_2__.default],
-    headerToolbar: {
-      left: 'prevYear,prev,next,nextYear today',
-      center: 'title',
-      right: 'dayGridMonth'
-    },
-    weekends: true,
-    selectable: true,
-    editable: true,
-    // aspectRatio: 2,
-    select: function select(array) {
-      console.log(array.start);
-      console.log(array.startStr);
-      console.log(array.allDay);
-      console.log(array.view);
-      settingsStore();
-    },
-    // dateClick: function(info) {
-    //   alert('Clicked on: ' + info.dateStr);
-    //   alert('Coordinates: ' + info.jsEvent.pageX + ',' + info.jsEvent.pageY);
-    //   alert('Current view: ' + info.view.type);
-    //   // change the day's background color just for fun
-    //   info.dayEl.style.backgroundColor = 'red';
-    // }
-    eventClick: function eventClick(currentDateTarget) {
-      console.log(currentDateTarget.event._instance); // if (confirm('Are you sure you want to delete this event?')) {
-      //   arg.event.remove()
-      // }
-    },
-    events: [{
-      title: 'All Day Event',
-      start: '2020-12-01'
-    }, {
-      title: 'Long Event',
-      start: '2020-12-07',
-      end: '2020-12-10'
-    }, {
-      groupId: 999,
-      title: 'Repeating Event',
-      start: '2020-12T16:00:00'
-    }, {
-      groupId: 999,
-      title: 'Repeating Event',
-      start: '2020-12-16T16:00:00'
-    }, {
-      title: 'Conference',
-      start: '2020-12-11',
-      end: '2020-12-13'
-    }, {
-      title: 'Meeting',
-      start: '2020-12-12T10:30:00',
-      end: '2020-12-12T12:30:00'
-    }, {
-      title: 'Lunch',
-      start: '2020-12-12T12:00:00'
-    }, {
-      title: 'Meeting',
-      start: '2020-12-12T14:30:00'
-    }, {
-      title: 'Happy Hour',
-      start: '2020-12-12T17:30:00'
-    }, {
-      title: 'Dinner',
-      start: '2020-12-12T20:00:00'
-    }, {
-      title: 'Birthday Party',
-      start: '2020-12-13T07:00:00'
-    }, {
-      title: 'Click for Google',
-      url: 'http://google.com/',
-      start: '2020-12-28'
-    }]
-  });
-  calendar.render();
-});
-
-var settingsStore = function settingsStore() {
-  console.log(123213);
-};
-
-var exampleModal = document.getElementById('exampleModal');
-exampleModal.addEventListener('show.bs.modal', function (event) {
-  // Button that triggered the modal
-  var button = event.relatedTarget;
-  console.log(button); // Extract info from data-bs-* attributes
-  // var recipient = button.getAttribute('data-bs-whatever')
-  // If necessary, you could initiate an AJAX request here
-  // and then do the updating in a callback.
-  //
-  // Update the modal's content.
-  // var modalTitle = exampleModal.querySelector('.modal-title')
-  // var modalBodyInput = exampleModal.querySelector('.modal-body input')
-  // modalTitle.textContent = 'New message to ' + recipient
-  // modalBodyInput.value = recipient
-});
-var leaveItems = [];
-document.querySelector("#leaveType").addEventListener('change', function (e) {
-  var selectedLeaveType = e.target.value;
-  var leaveItem = document.createElement('span');
-  leaveItem.innerText = selectedLeaveType;
-  var leaveDate = {
-    name: selectedLeaveType
-  };
-  leaveItems.concat(leaveDate);
-  console.log(leaveItems);
-  drawLeaveList(leaveItems);
-});
-
-function drawLeaveList(leaveItems) {}
-
-/***/ }),
-
 /***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/@fullcalendar/common/main.css":
 /*!******************************************************************************************!*\
   !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/@fullcalendar/common/main.css ***!
@@ -13911,10 +13783,134 @@ function __classPrivateFieldSet(receiver, privateMap, value) {
 /******/ 	})();
 /******/ 	
 /************************************************************************/
-/******/ 	// startup
-/******/ 	// Load entry module
-/******/ 	__webpack_require__("./src/js/main.js");
-/******/ 	// This entry module used 'exports' so it can't be inlined
+(() => {
+/*!************************!*\
+  !*** ./src/js/main.js ***!
+  \************************/
+
+
+var _core = __webpack_require__(/*! @fullcalendar/core */ "./node_modules/@fullcalendar/core/main.js");
+
+var _interaction = _interopRequireDefault(__webpack_require__(/*! @fullcalendar/interaction */ "./node_modules/@fullcalendar/interaction/main.js"));
+
+var _daygrid = _interopRequireDefault(__webpack_require__(/*! @fullcalendar/daygrid */ "./node_modules/@fullcalendar/daygrid/main.js"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+
+document.addEventListener('DOMContentLoaded', function () {
+  var calendarEl = document.getElementById('calendar');
+  var calendar = new _core.Calendar(calendarEl, {
+    plugins: [_interaction["default"], _daygrid["default"]],
+    headerToolbar: {
+      left: 'prevYear,prev,next,nextYear today',
+      center: 'title',
+      right: 'dayGridMonth'
+    },
+    weekends: true,
+    selectable: true,
+    editable: true,
+    // aspectRatio: 2,
+    select: function select(array) {
+      console.log(array.start);
+      console.log(array.startStr);
+      console.log(array.allDay);
+      console.log(array.view);
+      settingsStore();
+    },
+    // dateClick: function(info) {
+    //   alert('Clicked on: ' + info.dateStr);
+    //   alert('Coordinates: ' + info.jsEvent.pageX + ',' + info.jsEvent.pageY);
+    //   alert('Current view: ' + info.view.type);
+    //   // change the day's background color just for fun
+    //   info.dayEl.style.backgroundColor = 'red';
+    // }
+    eventClick: function eventClick(currentDateTarget) {
+      console.log(currentDateTarget.event._instance); // if (confirm('Are you sure you want to delete this event?')) {
+      //   arg.event.remove()
+      // }
+    },
+    events: [{
+      title: 'All Day Event',
+      start: '2020-12-01'
+    }, {
+      title: 'Long Event',
+      start: '2020-12-07',
+      end: '2020-12-10'
+    }, {
+      groupId: 999,
+      title: 'Repeating Event',
+      start: '2020-12T16:00:00'
+    }, {
+      groupId: 999,
+      title: 'Repeating Event',
+      start: '2020-12-16T16:00:00'
+    }, {
+      title: 'Conference',
+      start: '2020-12-11',
+      end: '2020-12-13'
+    }, {
+      title: 'Meeting',
+      start: '2020-12-12T10:30:00',
+      end: '2020-12-12T12:30:00'
+    }, {
+      title: 'Lunch',
+      start: '2020-12-12T12:00:00'
+    }, {
+      title: 'Meeting',
+      start: '2020-12-12T14:30:00'
+    }, {
+      title: 'Happy Hour',
+      start: '2020-12-12T17:30:00'
+    }, {
+      title: 'Dinner',
+      start: '2020-12-12T20:00:00'
+    }, {
+      title: 'Birthday Party',
+      start: '2020-12-13T07:00:00'
+    }, {
+      title: 'Click for Google',
+      url: 'http://google.com/',
+      start: '2020-12-28'
+    }]
+  });
+  calendar.render();
+});
+
+var settingsStore = function settingsStore() {
+  console.log(123213);
+};
+
+var exampleModal = document.getElementById('exampleModal');
+exampleModal.addEventListener('show.bs.modal', function (event) {
+  // Button that triggered the modal
+  var button = event.relatedTarget;
+  console.log(button); // Extract info from data-bs-* attributes
+  // var recipient = button.getAttribute('data-bs-whatever')
+  // If necessary, you could initiate an AJAX request here
+  // and then do the updating in a callback.
+  //
+  // Update the modal's content.
+  // var modalTitle = exampleModal.querySelector('.modal-title')
+  // var modalBodyInput = exampleModal.querySelector('.modal-body input')
+  // modalTitle.textContent = 'New message to ' + recipient
+  // modalBodyInput.value = recipient
+});
+var leaveItems = [];
+document.querySelector("#leaveType").addEventListener('change', function (e) {
+  var selectedLeaveType = e.target.value;
+  var leaveItem = document.createElement('span');
+  leaveItem.innerText = selectedLeaveType;
+  var leaveDate = {
+    name: selectedLeaveType
+  };
+  leaveItems.concat(leaveDate);
+  console.log(leaveItems);
+  drawLeaveList(leaveItems);
+});
+
+function drawLeaveList(leaveItems) {}
+})();
+
 /******/ })()
 ;
 //# sourceMappingURL=bundle.js.map
