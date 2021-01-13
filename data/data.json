@@ -1,0 +1,274 @@
+{
+  "leave-history": [
+    {
+      "id": "02abf4ac-c57a-6821-b0de-57e9adf541e6",
+      "memberId": "juyeong",
+      "start": "2021-01-15",
+      "title": "손주영-오후반반차",
+      "payCount": 0.5
+    },
+    {
+      "id": "0ad7bc87-71ed-6936-3cb1-d87903fe72be",
+      "memberId": "dongguk",
+      "start": "2021-01-14",
+      "title": "이동국-연차",
+      "payCount": 1
+    },
+    {
+      "id": "d3e2e870-53c6-b40f-2859-062bf7b13c6d",
+      "memberId": "sunjin",
+      "start": "2021-01-19",
+      "title": "김선진-오전반반차",
+      "payCount": 0.25
+    },
+    {
+      "id": "29cc5b3f-31e8-7612-e42e-f1e74f0fba4d",
+      "memberId": "bong",
+      "start": "2021-01-26",
+      "title": "이석봉-오전반반차",
+      "payCount": 0.25
+    },
+    {
+      "id": "efb17c15-cfc0-ec5f-688b-fd443463986a",
+      "memberId": "hongkeun",
+      "start": "2021-01-13",
+      "title": "안홍근-연차",
+      "payCount": 1
+    },
+    {
+      "id": "7e4b02df-7b68-2ef9-03ea-b17f95d65729",
+      "memberId": "hongkeun",
+      "start": "2021-01-20",
+      "title": "안홍근-오전반차",
+      "payCount": 0.5
+    }
+  ],
+  "member": [
+    {
+      "id": "kyeongnam",
+      "createdDate": "2020-11-20",
+      "joiningCompanyDate": "2014-01-01",
+      "name": "김경남",
+      "updateDate": "17",
+      "payDate": 17
+    },
+    {
+      "id": "yunmo",
+      "createdDate": "2020-11-20",
+      "joiningCompanyDate": "2014-01-01",
+      "name": "성윤모",
+      "updateDate": "17",
+      "payDate": 16
+    },
+    {
+      "id": "sangmin",
+      "createdDate": "2020-11-20",
+      "joiningCompanyDate": "2014-01-01",
+      "name": "이상민",
+      "updateDate": "17",
+      "payDate": "17"
+    },
+    {
+      "id": "uicheol",
+      "createdDate": "2020-11-20",
+      "joiningCompanyDate": "2014-01-01",
+      "name": "최의철",
+      "updateDate": "17",
+      "payDate": 16.75
+    },
+    {
+      "id": "juyeong",
+      "createdDate": "2020-11-20",
+      "joiningCompanyDate": "2016-01-01",
+      "name": "손주영",
+      "updateDate": "16",
+      "payDate": 15.5
+    },
+    {
+      "id": "seunghyeun",
+      "createdDate": "2020-11-20",
+      "joiningCompanyDate": "2016-01-01",
+      "name": "이승현",
+      "updateDate": "16",
+      "payDate": "16"
+    },
+    {
+      "id": "hwan",
+      "createdDate": "2020-11-20",
+      "joiningCompanyDate": "2017-05-16",
+      "name": "이승환",
+      "updateDate": "15",
+      "payDate": "16"
+    },
+    {
+      "id": "eunbi",
+      "createdDate": "2020-11-20",
+      "joiningCompanyDate": "2017-08-21",
+      "name": "허은비",
+      "updateDate": "15",
+      "payDate": "15"
+    },
+    {
+      "id": "jaeseok",
+      "createdDate": "2020-11-20",
+      "joiningCompanyDate": "2018-01-08",
+      "name": "이재석",
+      "updateDate": "15",
+      "payDate": "15"
+    },
+    {
+      "id": "hongkeun",
+      "createdDate": "2020-11-20",
+      "joiningCompanyDate": "2018-05-14",
+      "name": "안홍근",
+      "updateDate": "15",
+      "payDate": 13.5
+    },
+    {
+      "id": "bong",
+      "createdDate": "2020-11-20",
+      "joiningCompanyDate": "2018-05-14",
+      "name": "이석봉",
+      "updateDate": "15",
+      "payDate": 14.75
+    },
+    {
+      "id": "dongho",
+      "createdDate": "2020-11-20",
+      "joiningCompanyDate": "2019-04-01",
+      "name": "한동호",
+      "updateDate": "15",
+      "payDate": 14.5
+    },
+    {
+      "id": "keeseung",
+      "createdDate": "2020-11-20",
+      "joiningCompanyDate": "2019-04-22",
+      "name": "이기승",
+      "updateDate": "15",
+      "payDate": 15
+    },
+    {
+      "id": "donggil",
+      "createdDate": "2020-11-20",
+      "joiningCompanyDate": "2019-04-22",
+      "name": "남동길",
+      "updateDate": "15",
+      "payDate": "15"
+    },
+    {
+      "id": "sonu",
+      "createdDate": "2020-11-20",
+      "joiningCompanyDate": "2019-05-20",
+      "name": "정선우",
+      "updateDate": "15",
+      "payDate": 15
+    },
+    {
+      "id": "raina",
+      "createdDate": "2020-11-20",
+      "joiningCompanyDate": "2019-06-17",
+      "name": "양나래",
+      "updateDate": "15",
+      "payDate": "15"
+    },
+    {
+      "id": "jeychoi",
+      "createdDate": "2020-11-20",
+      "joiningCompanyDate": "2019-07-15",
+      "name": "최우석",
+      "updateDate": "15",
+      "payDate": "15"
+    },
+    {
+      "id": "isabel",
+      "createdDate": "2020-11-20",
+      "joiningCompanyDate": "2019-10-14",
+      "name": "신영지",
+      "updateDate": "15",
+      "payDate": "15"
+    },
+    {
+      "id": "ezy",
+      "createdDate": "2020-11-20",
+      "joiningCompanyDate": "2019-10-14",
+      "name": "이지혜",
+      "updateDate": "15",
+      "payDate": "15"
+    },
+    {
+      "id": "sunjin",
+      "createdDate": "2020-11-20",
+      "joiningCompanyDate": "2020-02-01",
+      "name": "김선진",
+      "updateDate": "15",
+      "payDate": 14.75
+    },
+    {
+      "id": "seaho",
+      "createdDate": "2020-11-20",
+      "joiningCompanyDate": "2020-04-13",
+      "name": "박세호",
+      "updateDate": "15",
+      "payDate": "15"
+    },
+    {
+      "id": "dongguk",
+      "createdDate": "2020-11-20",
+      "joiningCompanyDate": "2020-06-01",
+      "name": "이동국",
+      "updateDate": "15",
+      "payDate": 14
+    },
+    {
+      "id": "hanbyeol",
+      "createdDate": "2020-11-20",
+      "joiningCompanyDate": "2020-09-09",
+      "name": "이한별",
+      "updateDate": "15",
+      "payDate": "15"
+    },
+    {
+      "id": "nashil",
+      "createdDate": "2020-11-20",
+      "joiningCompanyDate": "2020-10-19",
+      "name": "최나실",
+      "updateDate": "15",
+      "payDate": 15
+    },
+    {
+      "id": "jeongbin",
+      "createdDate": "2020-11-20",
+      "joiningCompanyDate": "2020-11-02",
+      "name": "김정빈",
+      "updateDate": "15",
+      "payDate": "15"
+    }
+  ],
+  "leaveHistory": [
+    {
+      "name": "최나실",
+      "startDate": "2020-12-20",
+      "endDate": "2020-12-20",
+      "payDate": 0.5,
+      "payType": "PM_HALF_DAY",
+      "id": "bknljrN"
+    },
+    {
+      "name": "이승현",
+      "startDate": "2020-12-18",
+      "endDate": "2020-12-18",
+      "payDate": 1,
+      "payType": "ANNUAL_LEAVE",
+      "id": "nfVUnVv"
+    },
+    {
+      "name": "김정빈",
+      "startDate": "2020-12-24",
+      "endDate": "2020-12-24",
+      "payDate": 0.5,
+      "payType": "PM_HALF_DAY",
+      "id": "inkfKUC"
+    }
+  ]
+}
