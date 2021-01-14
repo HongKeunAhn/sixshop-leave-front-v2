@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-export function findAllMember() {
+export function findAll() {
     const url = 'http://localhost:3001/member';
 
     // fetch(url, {
@@ -12,7 +12,7 @@ export function findAllMember() {
 }
 
 export function findOne(id) {
-    const url = '/' + id;
+    const url = 'http://localhost:3001/member' + id;
 
     fetch(url, {
         method: 'GET'
@@ -22,11 +22,11 @@ export function findOne(id) {
 }
 
 export function create(id, params) {
-    const url = '/' + id;
+    const url = 'http://localhost:3001/member' + id;
 
     fetch(url, {
         method: 'POST',
-        headers: {},
+        headers: {'content-type': 'application/json'},
         body: params
     })
     .then(response => response.json())
@@ -34,7 +34,7 @@ export function create(id, params) {
 }
 
 export function remove(id) {
-    const url = '/' + id;
+    const url = 'http://localhost:3001/member' + id;
 
     fetch(url, {
         method: 'DELETE'

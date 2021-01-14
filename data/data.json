@@ -41,6 +41,27 @@
       "start": "2021-01-20",
       "title": "안홍근-오전반차",
       "payCount": 0.5
+    },
+    {
+      "id": "586aaae9-152d-bcf7-79f1-c031c4cf2a0c",
+      "memberId": "donggil",
+      "start": "2021-01-26",
+      "title": "남동길-연차",
+      "payCount": 1
+    },
+    {
+      "id": "86a29765-efe1-7762-219b-bc4002d02f41",
+      "memberId": "isabel",
+      "start": "2021-01-21",
+      "title": "신영지-오전반차",
+      "payCount": 0.5
+    },
+    {
+      "id": "3b645f3a-acf5-ce75-1faf-f459b7b25d7e",
+      "memberId": "jaeseok",
+      "start": "2021-01-20",
+      "title": "이재석-연차",
+      "payCount": 1
     }
   ],
   "member": [
@@ -49,7 +70,7 @@
       "createdDate": "2020-11-20",
       "joiningCompanyDate": "2014-01-01",
       "name": "김경남",
-      "updateDate": "17",
+      "updateDate": 17,
       "payDate": 17
     },
     {
@@ -57,7 +78,7 @@
       "createdDate": "2020-11-20",
       "joiningCompanyDate": "2014-01-01",
       "name": "성윤모",
-      "updateDate": "17",
+      "updateDate": 17,
       "payDate": 16
     },
     {
@@ -65,15 +86,15 @@
       "createdDate": "2020-11-20",
       "joiningCompanyDate": "2014-01-01",
       "name": "이상민",
-      "updateDate": "17",
-      "payDate": "17"
+      "updateDate": 17,
+      "payDate": 17
     },
     {
       "id": "uicheol",
       "createdDate": "2020-11-20",
       "joiningCompanyDate": "2014-01-01",
       "name": "최의철",
-      "updateDate": "17",
+      "updateDate": 17,
       "payDate": 16.75
     },
     {
@@ -81,7 +102,7 @@
       "createdDate": "2020-11-20",
       "joiningCompanyDate": "2016-01-01",
       "name": "손주영",
-      "updateDate": "16",
+      "updateDate": 16,
       "payDate": 15.5
     },
     {
@@ -89,39 +110,39 @@
       "createdDate": "2020-11-20",
       "joiningCompanyDate": "2016-01-01",
       "name": "이승현",
-      "updateDate": "16",
-      "payDate": "16"
+      "updateDate": 16,
+      "payDate": 16
     },
     {
       "id": "hwan",
       "createdDate": "2020-11-20",
       "joiningCompanyDate": "2017-05-16",
       "name": "이승환",
-      "updateDate": "15",
-      "payDate": "16"
+      "updateDate": 15,
+      "payDate": 16
     },
     {
       "id": "eunbi",
       "createdDate": "2020-11-20",
       "joiningCompanyDate": "2017-08-21",
       "name": "허은비",
-      "updateDate": "15",
-      "payDate": "15"
+      "updateDate": 15,
+      "payDate": 15
     },
     {
       "id": "jaeseok",
       "createdDate": "2020-11-20",
       "joiningCompanyDate": "2018-01-08",
       "name": "이재석",
-      "updateDate": "15",
-      "payDate": "15"
+      "updateDate": 15,
+      "payDate": 14
     },
     {
       "id": "hongkeun",
       "createdDate": "2020-11-20",
       "joiningCompanyDate": "2018-05-14",
       "name": "안홍근",
-      "updateDate": "15",
+      "updateDate": 15,
       "payDate": 13.5
     },
     {
@@ -129,7 +150,7 @@
       "createdDate": "2020-11-20",
       "joiningCompanyDate": "2018-05-14",
       "name": "이석봉",
-      "updateDate": "15",
+      "updateDate": 15,
       "payDate": 14.75
     },
     {
@@ -137,7 +158,7 @@
       "createdDate": "2020-11-20",
       "joiningCompanyDate": "2019-04-01",
       "name": "한동호",
-      "updateDate": "15",
+      "updateDate": 15,
       "payDate": 14.5
     },
     {
@@ -145,7 +166,7 @@
       "createdDate": "2020-11-20",
       "joiningCompanyDate": "2019-04-22",
       "name": "이기승",
-      "updateDate": "15",
+      "updateDate": 15,
       "payDate": 15
     },
     {
@@ -153,15 +174,15 @@
       "createdDate": "2020-11-20",
       "joiningCompanyDate": "2019-04-22",
       "name": "남동길",
-      "updateDate": "15",
-      "payDate": "15"
+      "updateDate": 15,
+      "payDate": 14
     },
     {
       "id": "sonu",
       "createdDate": "2020-11-20",
       "joiningCompanyDate": "2019-05-20",
       "name": "정선우",
-      "updateDate": "15",
+      "updateDate": 15,
       "payDate": 15
     },
     {
@@ -169,39 +190,39 @@
       "createdDate": "2020-11-20",
       "joiningCompanyDate": "2019-06-17",
       "name": "양나래",
-      "updateDate": "15",
-      "payDate": "15"
+      "updateDate": 15,
+      "payDate": 15
     },
     {
       "id": "jeychoi",
       "createdDate": "2020-11-20",
       "joiningCompanyDate": "2019-07-15",
       "name": "최우석",
-      "updateDate": "15",
-      "payDate": "15"
+      "updateDate": 15,
+      "payDate": 15
     },
     {
       "id": "isabel",
       "createdDate": "2020-11-20",
       "joiningCompanyDate": "2019-10-14",
       "name": "신영지",
-      "updateDate": "15",
-      "payDate": "15"
+      "updateDate": 15,
+      "payDate": 14.5
     },
     {
       "id": "ezy",
       "createdDate": "2020-11-20",
       "joiningCompanyDate": "2019-10-14",
       "name": "이지혜",
-      "updateDate": "15",
-      "payDate": "15"
+      "updateDate": 15,
+      "payDate": 15
     },
     {
       "id": "sunjin",
       "createdDate": "2020-11-20",
       "joiningCompanyDate": "2020-02-01",
       "name": "김선진",
-      "updateDate": "15",
+      "updateDate": 15,
       "payDate": 14.75
     },
     {
@@ -209,15 +230,15 @@
       "createdDate": "2020-11-20",
       "joiningCompanyDate": "2020-04-13",
       "name": "박세호",
-      "updateDate": "15",
-      "payDate": "15"
+      "updateDate": 15,
+      "payDate": 15
     },
     {
       "id": "dongguk",
       "createdDate": "2020-11-20",
       "joiningCompanyDate": "2020-06-01",
       "name": "이동국",
-      "updateDate": "15",
+      "updateDate": 15,
       "payDate": 14
     },
     {
@@ -225,15 +246,15 @@
       "createdDate": "2020-11-20",
       "joiningCompanyDate": "2020-09-09",
       "name": "이한별",
-      "updateDate": "15",
-      "payDate": "15"
+      "updateDate": 15,
+      "payDate": 15
     },
     {
       "id": "nashil",
       "createdDate": "2020-11-20",
       "joiningCompanyDate": "2020-10-19",
       "name": "최나실",
-      "updateDate": "15",
+      "updateDate": 15,
       "payDate": 15
     },
     {
@@ -241,34 +262,8 @@
       "createdDate": "2020-11-20",
       "joiningCompanyDate": "2020-11-02",
       "name": "김정빈",
-      "updateDate": "15",
-      "payDate": "15"
-    }
-  ],
-  "leaveHistory": [
-    {
-      "name": "최나실",
-      "startDate": "2020-12-20",
-      "endDate": "2020-12-20",
-      "payDate": 0.5,
-      "payType": "PM_HALF_DAY",
-      "id": "bknljrN"
-    },
-    {
-      "name": "이승현",
-      "startDate": "2020-12-18",
-      "endDate": "2020-12-18",
-      "payDate": 1,
-      "payType": "ANNUAL_LEAVE",
-      "id": "nfVUnVv"
-    },
-    {
-      "name": "김정빈",
-      "startDate": "2020-12-24",
-      "endDate": "2020-12-24",
-      "payDate": 0.5,
-      "payType": "PM_HALF_DAY",
-      "id": "inkfKUC"
+      "updateDate": 15,
+      "payDate": 15
     }
   ]
 }

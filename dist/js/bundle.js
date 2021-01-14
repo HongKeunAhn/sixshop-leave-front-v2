@@ -14832,7 +14832,7 @@ module.exports = {
 Object.defineProperty(exports, "__esModule", ({
   value: true
 }));
-exports.findAllMember = findAllMember;
+exports.findAll = findAll;
 exports.findOne = findOne;
 exports.create = create;
 exports.remove = remove;
@@ -14841,7 +14841,7 @@ var _axios = _interopRequireDefault(__webpack_require__(/*! axios */ "./node_mod
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 
-function findAllMember() {
+function findAll() {
   var url = 'http://localhost:3001/member'; // fetch(url, {
   //     method: 'GET'
   // })
@@ -14854,7 +14854,7 @@ function findAllMember() {
 }
 
 function findOne(id) {
-  var url = '/' + id;
+  var url = 'http://localhost:3001/member' + id;
   fetch(url, {
     method: 'GET'
   }).then(function (response) {
@@ -14865,10 +14865,12 @@ function findOne(id) {
 }
 
 function create(id, params) {
-  var url = '/' + id;
+  var url = 'http://localhost:3001/member' + id;
   fetch(url, {
     method: 'POST',
-    headers: {},
+    headers: {
+      'content-type': 'application/json'
+    },
     body: params
   }).then(function (response) {
     return response.json();
@@ -14878,7 +14880,7 @@ function create(id, params) {
 }
 
 function remove(id) {
-  var url = '/' + id;
+  var url = 'http://localhost:3001/member' + id;
   fetch(url, {
     method: 'DELETE'
   }).then(function (response) {
@@ -24018,7 +24020,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "html {\n    font-size: 62.5%;\n}\n\n.wrapper {\n    max-width: 1440px;\n    margin: 0 auto;\n}", "",{"version":3,"sources":["webpack://./src/css/main.css"],"names":[],"mappings":"AAAA;IACI,gBAAgB;AACpB;;AAEA;IACI,iBAAiB;IACjB,cAAc;AAClB","sourcesContent":["html {\n    font-size: 62.5%;\n}\n\n.wrapper {\n    max-width: 1440px;\n    margin: 0 auto;\n}"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "html {\n    font-size: 62.5%;\n}\n\n.wrapper {\n    max-width: 1140px;\n    max-width: 1680px;\n    margin: 0 auto;\n}", "",{"version":3,"sources":["webpack://./src/css/main.css"],"names":[],"mappings":"AAAA;IACI,gBAAgB;AACpB;;AAEA;IACI,iBAAiB;IACjB,iBAAiB;IACjB,cAAc;AAClB","sourcesContent":["html {\n    font-size: 62.5%;\n}\n\n.wrapper {\n    max-width: 1140px;\n    max-width: 1680px;\n    margin: 0 auto;\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -25754,6 +25756,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     console.log(result);
                     calendar.refetchEvents();
                   });
+                  getMemberLeaveInfo(memberId);
                 });
                 /* ** 
                   ** REMOVE **

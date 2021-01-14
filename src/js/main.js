@@ -97,7 +97,7 @@ document.addEventListener('DOMContentLoaded', function() {
           console.log(result);
           calendar.refetchEvents();
         });
-
+        getMemberLeaveInfo(memberId);
 
       });
 
